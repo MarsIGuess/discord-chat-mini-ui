@@ -1,0 +1,64 @@
+#workskin otherNic {
+  font-weight: bold;
+}
+
+.chatTime {
+  font-size: 10px;
+  color: gray;
+}
+
+.divider {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 10px;
+}
+
+.divider::before,
+.divider::after {
+  flex: 1;
+  content: '';
+  padding: 0.1px;
+  background-color: gray;
+  margin: 3px;
+}
+
+.chat {
+  align-self: center;
+  font-family: Tahoma, sans-serif;
+  color: white;
+  display: grid;
+  background-color: #030e16;
+  max-width: 612px;
+  height: 815px;
+  border: 1px solid gray;
+  overflow: auto;
+}
+
+.textChat {
+  padding: 0px 30px;
+}
+
+.ChatM {
+  padding: 0px 30px 0px 30px;
+}
+
+.ChatD {
+  padding: 0px 30px 0px 30px;
+}
+
+.chatName {
+  position: sticky;
+  top: 0;
+  background-color: #030e16;
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+  border: solid gray 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.username {
+  font-weight: 500;
+}
