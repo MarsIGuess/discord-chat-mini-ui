@@ -1,4 +1,4 @@
-#workskin otherNic {
+.otherNic {
   font-weight: bold;
 }
 
@@ -61,4 +61,9 @@
 
 .username {
   font-weight: 500;
+}
+
+.failedToSend {
+  color: rgb(246, 86, 86);
+  font-style: italic;
 }
